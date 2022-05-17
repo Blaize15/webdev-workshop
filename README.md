@@ -15,6 +15,9 @@
 	- [ ] [Basic HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
 	- [ ] Hands-on project using HTML only.
 	- [ ] Host project on [Netlify](https://www.netlify.com/).
+	- [ ] [DNS](https://www.cloudflare.com/en-gb/learning/dns/what-is-dns/)
+	- [ ] What is [Domain name](https://developer.mozilla.org/en-US/docs/Learn/Common_questions/What_is_a_domain_name)?
+	- [ ] What is [hosting](https://www.youtube.com/watch?v=htbY9-yggB0)?
 
 
 ---
