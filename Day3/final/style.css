@@ -1,0 +1,133 @@
+/* Universal style*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+
+body{
+    background-image: linear-gradient(120deg, #e0b423, #f17756);
+    min-height: 100vh;
+    color: white;
+}
+
+
+/*
+Header section of the app
+*/
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    font-family: fantasy;
+    
+
+  
+}
+
+/*
+Form section of the app
+*/
+
+.form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 25vh;
+}
+
+
+form input, form button{
+    padding: 0.5rem;
+    font-size: 2 rem;
+    border:  none;
+    background: white;
+}
+
+.todo-button{
+    color: black;
+    cursor: pointer;
+    background: white;
+    transition: all 0.3s ease;
+}
+
+.todo-button:hover{
+    background: yellow;
+    color: white;
+}
+
+
+/*
+todo list section of the app
+*/
+.todo-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+/*UL*/
+.todo-list{
+    min-width: 35%;
+    
+    list-style: none;
+}
+
+/*UL DIV*/
+
+.todo{
+    
+    background: white;
+    margin: 0.5rem;
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: all 0.5s ease;
+}
+
+.todo li{
+    flex: 1;
+}
+
+.completed-button, .trash-button{
+    border: none;
+    
+    padding: 0.5rem;
+    cursor: pointer;
+    background: yellow;
+    
+    
+}
+
+.my-todo{
+    padding: 0rem 0.5rem;
+}
+.fa-trash, .fa-check{
+
+    pointer-events: none;
+    
+}
+
+.trash-button:hover{
+    background: white;
+}
+
+.completed-button:hover{
+    background-color: white;
+}
+
+.fade{
+    text-decoration: line-through;
+    opacity: 40%;
+}
+
+.fall{
+    transform: translateY(8rem) rotateZ(25deg);
+    opacity: 0;
+}
